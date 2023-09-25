@@ -6,8 +6,10 @@ The source of the dataset was taken from https://www.kaggle.com/datasets/utkarsh
 **Objective**: As data analyst, we are to do a research on the case of customers default payments in Taiwan and compares the predictive accuracy of probability of default. 
 
 This dataset consist of 30,000 entries.
+
 File: default of credit card clients.xls
-There are 2 headings on each columns, the first heading labeled by X1, X2....X23 and last column label Y was removed and will use the second row heading instead. 
+
+The original file downloaded frok kaggle had 2 headings on each columns, the first heading labeled by X1, X2....X23 and last column label Y was removed and will use the second row heading instead. 
 
 ### Metadata 
 |Column |Description  |
