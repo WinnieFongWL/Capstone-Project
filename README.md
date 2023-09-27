@@ -8,11 +8,19 @@ m https://www.kaggle.com/datasets/utkarshx27/default-of-credit-card-clients-data
 
 **Objective**: As data analyst, we are to do a research on the case of customers default payments in Taiwan and compares the predictive accuracy of probability of default. 
 
+**What is Credit Card default?**
+Missing credit card payments once or twice does not count as a default. A payment default occurs when you fail to pay the Minimum Amount Due (MAD) on the credit card for a few consecutive months. Usually, the default notice is sent by the card issuer after 6 consecutive missed payments. However, the final call rests with the issuer. So, it is important to pay your credit card bill on time and in full to save yourself from high interest charges and being a defaulter.
+
+**Credit Card default timeline: What happens after you miss payments?**
+Your credit card account will not be marked as default on missing the first bill payment. Some issuers even give additional grace period after the payment due date during which no late payment charges will be levied. If you still do not pay the Minimum Amount Due then the issuer will report you as delinquent. You will be marked delinquent for the number of days you haven’t paid the credit card bill.
+
+After this subsequent timeline, the issuer will increase their efforts to collect the debt from you. You will receive frequent phone calls, SMSs and emails. And, after 90 days, Loan Recovery Agents (LRAs) might pay you a visit. Some credit card providers might file a police complaint or send a legal notice while others might offer you a compromise in the form of a one-time settlement. If you do not pay off your bills for 190 days, that is, over 6 months, your credit card account will be put under the recovery pool. This is the final resolution the issuer can take. Under this scenario, the issuer will declare your account as a Non-Performing Asset (NPA). This means that the issuer sees your credit card account as a loss. Now, they may file a lawsuit against you or sell your debt to a debt collection agency.
+
 This dataset consist of 30,000 entries.
 
 File: default of credit card clients.xls
 
-The original file downloaded frok kaggle had 2 headings on each columns, the first heading labeled by X1, X2....X23 and last column label Y was removed and will use the second row heading instead. 
+The original file downloaded from kaggle had 2 headings on each columns, the first heading labeled by X1, X2....X23 and last column label Y was removed and will use the second row heading instead. 
 
 ### Metadata 
 |Column |Description  |
@@ -48,10 +56,10 @@ The measurement scale for the repayment status is: -1 = pay duly; 1 = payment de
 ![Original dataset](https://github.com/WinnieFongWL/Capstone-Project/assets/144866583/99e6bc27-fefd-439b-ab04-c70c59167b26)
 
 #### Import Library
-- Pandas
-- Numpy
-- Matplolib
-- Seaborn
+- Pandas - is a library that offers fast and flexible data structures and operations for manipulating and processing tabular and multidimensional data.
+- Numpy - It consists of in-built mathematical functions for easy computations, it supports large matrics and multi-dimensional data.
+- Matplolib - Plot high defined figures like pie charts, histograms, scatterplots, graphs, etc.
+- Seaborn - is a library for making statistical graphics in Python. It builds on top of matplotlib and integrates closely with pandas data structures.
 
 #### Data Cleaning and Transformation
 - Remove ID column
@@ -60,10 +68,10 @@ The measurement scale for the repayment status is: -1 = pay duly; 1 = payment de
 - In metadata, there is no define for Marriage 0 so I grouped it under 3 (Others)
 
 #### Predictive model
-- Logistic Regression Classification
-- Decision Tree Classifier
-- Extra Tree Classifier
-- Random Forest Classifier
+- **Logistic Regression Classification** - is a process of modeling the probability of a discrete outcome given an input variable. The most common logistic regression models a binary outcome; something that can take 2 values such as true/false, yes/no, and so on.
+- **Decision Tree Classifier** - is a supervised learning technique. It is capable of working with both classification and regression techniques. It resembles a tree with nodes, as the name implies. The amount of criteria determines the branches. It divides data into these branches until it reaches a threshold unit. There are root nodes, child nodes, and leaf nodes in a decision tree.
+- **Extra Tree Classifier** - (short for extremely randomized trees) like the random forests algorithm, creates many decision trees, but the sampling for each tree is random, without replacement. This creates a dataset for each tree with unique samples. A specific number of features, from the total set of features, are also selected randomly for each tree. The most important and unique characteristic of extra trees is the random selection of a splitting value for a feature.
+- **Random Forest Classifier** - is also used for supervised learning. The main distinction from decision tree is that it does not rely on a single decision. It assembles randomized decisions based on many decisions and then creates a final decision depending on the majority.
 
 ### Accuracy score
 |Model use |Score  |
