@@ -1,7 +1,10 @@
 # Capstone-Project
 ## Prediction on credit card default
 
-The source of the dataset was taken from https://www.kaggle.com/datasets/utkarshx27/default-of-credit-card-clients-dataset
+![CreditCardPicture](https://github.com/WinnieFongWL/Capstone-Project/assets/144866583/9ac49301-0e64-4b5e-b9a6-a174882b7261)
+
+The source of the dataset was taken fro
+m https://www.kaggle.com/datasets/utkarshx27/default-of-credit-card-clients-dataset
 
 **Objective**: As data analyst, we are to do a research on the case of customers default payments in Taiwan and compares the predictive accuracy of probability of default. 
 
@@ -42,6 +45,8 @@ The original file downloaded frok kaggle had 2 headings on each columns, the fir
 
 The measurement scale for the repayment status is: -1 = pay duly; 1 = payment delay for one month; 2 = payment delay for two months;..; 8 = payment delay for eight months; 9 = payment delay for nine months and above
 
+![Original dataset](https://github.com/WinnieFongWL/Capstone-Project/assets/144866583/99e6bc27-fefd-439b-ab04-c70c59167b26)
+
 #### Import Library
 - Pandas
 - Numpy
@@ -59,3 +64,15 @@ The measurement scale for the repayment status is: -1 = pay duly; 1 = payment de
 - Decision Tree Classifier
 - Extra Tree Classifier
 - Random Forest Classifier
+
+### Accuracy score
+|Model use |Score  |
+|--|--|
+|Logistic Regression |77.87%  |
+|Decision Tree | 71.76% |
+|Extra Tree | 80.87% |
+|Extra Tree (estimators = 300) | 80.91% |
+|Extra Tree (class bal) | 92.97% |
+|Random Forest | 81.34% |
+|Random Forest (estimators = 300) | 81.35% |
+|Random Forest (class bal) | 89.48% |
