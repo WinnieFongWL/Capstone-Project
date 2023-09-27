@@ -1,7 +1,7 @@
 # Capstone-Project
 ## Prediction on credit card default
 
-![CreditCardPicture](https://github.com/WinnieFongWL/Capstone-Project/assets/144866583/9ac49301-0e64-4b5e-b9a6-a174882b7261)
+![CreditCardPicture](https://github.com/WinnieFongWL/Capstone-Project/assets/144866583/53a1d285-f92c-447c-9654-2a61e08923fc)
 
 The source of the dataset was taken fro
 m https://www.kaggle.com/datasets/utkarshx27/default-of-credit-card-clients-dataset
@@ -53,7 +53,7 @@ The original file downloaded from kaggle had 2 headings on each columns, the fir
 
 The measurement scale for the repayment status is: -1 = pay duly; 1 = payment delay for one month; 2 = payment delay for two months;..; 8 = payment delay for eight months; 9 = payment delay for nine months and above
 
-![Original dataset](https://github.com/WinnieFongWL/Capstone-Project/assets/144866583/99e6bc27-fefd-439b-ab04-c70c59167b26)
+![Original dataset](https://github.com/WinnieFongWL/Capstone-Project/assets/144866583/b57bfe2e-2d2c-42c3-8810-68a996a0006f)
 
 #### Import Library
 - Pandas - is a library that offers fast and flexible data structures and operations for manipulating and processing tabular and multidimensional data.
