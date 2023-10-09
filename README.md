@@ -3,8 +3,7 @@
 
 ![CreditCardPicture](https://github.com/WinnieFongWL/Capstone-Project/assets/144866583/53a1d285-f92c-447c-9654-2a61e08923fc)
 
-The source of the dataset was taken fro
-m https://www.kaggle.com/datasets/utkarshx27/default-of-credit-card-clients-dataset
+The source of the dataset was taken from [kaggle](https://www.kaggle.com/datasets/utkarshx27/default-of-credit-card-clients-dataset).
 
 **Objective**: As data analyst, we are to do a research on the case of customers default payments in Taiwan and compares the predictive accuracy of probability of default. 
 
